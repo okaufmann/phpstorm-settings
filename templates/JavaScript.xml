@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="prom" value="new Promise(function (resolve, reject) {&#10;    $END$&#10;});" description="Inserts a Promis in ES5" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

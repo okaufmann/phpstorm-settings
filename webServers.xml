@@ -1,0 +1,21 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aaae501a-62dc-40c2-b000-716683e769cc" name="Localhost" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="39d8b22c-032b-4815-a317-c89cf54bc6fe" name="dev.mighty-code.com" url="http://dev.mighty-code.com">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="a717d67c-32d4-478c-9724-ecd3e8b529ce" name="dev.serienjunkies-notifier.com" url="http://dev.serienjunkies-notifier.com">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="7e2862e1-ee26-414f-b271-c51a433403d6" name="dev.postfinance-hackathon.ch" url="http://dev.postfinance-hackathon.ch">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="869b1516-36a8-4c8d-bfd6-8b9bd6104cca" name="dev.pushman.com" url="http://dev.pushman.com/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
