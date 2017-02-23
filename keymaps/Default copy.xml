@@ -13,6 +13,11 @@
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages" />
+  <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl d" />
+  </action>
   <action id="Refresh" />
   <action id="Rerun" />
   <action id="Run">
@@ -47,6 +52,10 @@
   <action id="TableResult.GrowSelection" />
   <action id="Uml.ShowDiff" />
   <action id="UsageView.Rerun" />
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
 </keymap>
