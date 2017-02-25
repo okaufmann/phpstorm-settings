@@ -1,8 +1,13 @@
 <keymap version="1" name="Default copy" parent="Default for XWin">
+  <action id="Arrangement.Rule.Edit" />
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Console.TableResult.NavigateExportedAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
@@ -13,12 +18,17 @@
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages" />
+  <action id="GotoNextError" />
   <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl d" />
   </action>
   <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
@@ -57,5 +67,7 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="openAssertEqualsDiff" />
 </keymap>
