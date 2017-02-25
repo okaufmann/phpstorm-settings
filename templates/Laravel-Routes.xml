@@ -84,9 +84,9 @@
     <variable name="FILTER" expression="" defaultValue="&quot;'admin'&quot;" alwaysStopAt="true" />
     <variable name="HTTP" expression="" defaultValue="&quot;array('post')&quot;" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="@get" value="@$VERB$(&quot;$PATH$&quot;$OPTIONS$)$END$" description="Annotation - Basic Route (@Get, @Post,...)" toReformat="false" toShortenFQNames="true">
