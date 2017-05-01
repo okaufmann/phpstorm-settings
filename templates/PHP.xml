@@ -2,8 +2,8 @@
   <template name="ctor" value="public function __construct($ARGS$)&#10;{&#10;    $END$&#10;}&#10;" description="constructor" toReformat="false" toShortenFQNames="true">
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Class Member" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="for" value="for($i = 0; $i &lt; count($ITERABLE$); $i++) {&#10;    $VAR_VALUE$ = $ITERABLE$[$i];&#10;    $END$&#10;}" description="for($i = 0; $i &lt; count(iterable_expr); $i++) {...}" toReformat="false" toShortenFQNames="true">
