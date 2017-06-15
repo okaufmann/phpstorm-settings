@@ -1,0 +1,8 @@
+<templateSet group="Laravel-Tests">
+  <template name="ptf" value="/**&#10;     * A basic test example.&#10;     * @test&#10;     * @return void&#10;     */&#10;    public function it_$NAME$(){&#10;    &#10;        // Arrange&#10;        $url = '/settings';&#10;&#10;        // Act&#10;        $response = $this-&gt;get($url);&#10;&#10;        // Assert&#10;        $response-&gt;assertSee(200)&#10;            -&gt;assertSee(&quot;Settings&quot;);&#10;    }" description="creates a new test method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
