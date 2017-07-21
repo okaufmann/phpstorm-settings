@@ -24,7 +24,6 @@
     </formatting-settings>
   </DBN-SQL>
   <PHPCodeStyleSettings>
-    <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="CONCAT_SPACES" value="false" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="JSON">
@@ -39,12 +38,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
     <arrangement>
-      <groups>
-        <group>
-          <type>GETTERS_AND_SETTERS</type>
-          <order>KEEP</order>
-        </group>
-      </groups>
+      <groups />
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="SASS">
