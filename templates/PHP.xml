@@ -13,4 +13,9 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="pts" value="/**&#10;     * @test&#10;     */&#10;    public function it_can_handle_it()&#10;    {&#10;        // Arrange&#10;        $END$&#10;        &#10;        // Act&#10;        &#10;        // Assert&#10;    }" description="Create a new test function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
