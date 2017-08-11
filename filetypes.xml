@@ -11,6 +11,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="txxt" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="tct" type="PLAIN_TEXT" />
       <mapping pattern="sticky-footer" type="SCSS" />
       <mapping ext="example" type="XML" />
     </extensionMap>
