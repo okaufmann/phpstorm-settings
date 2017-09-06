@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="routeConfig" type="Blade" />
+      <mapping pattern="gitignore_global.txt" type="Git file" />
       <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
