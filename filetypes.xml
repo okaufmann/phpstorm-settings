@@ -9,6 +9,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.testing" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="invite" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="txxt" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
